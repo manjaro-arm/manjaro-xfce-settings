@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<channel name="xfce4-mixer" version="1.0">
+  <property name="sound-card" type="string" value="PlaybackDummyOutputPulseAudioMixer"/>
+  <property name="sound-cards" type="empty">
+    <property name="PlaybackDummyOutputPulseAudioMixer" type="array">
+      <value type="string" value="Master"/>
+    </property>
+    <property name="CaptureMonitorofDummyOutputPulseAudioMixer" type="array">
+      <value type="string" value="Master"/>
+    </property>
+  </property>
+  <property name="window-height" type="int" value="400"/>
+  <property name="window-width" type="int" value="693"/>
+</channel>
